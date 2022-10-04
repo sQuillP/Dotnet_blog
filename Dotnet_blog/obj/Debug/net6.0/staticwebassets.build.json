@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XeCxzK4odRk4vPNESlSEzdT9lIczaEpO4MNsoIiSauQ=",
+  "Source": "Dotnet_blog",
+  "BasePath": "_content/Dotnet_blog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
