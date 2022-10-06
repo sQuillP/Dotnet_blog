@@ -10,7 +10,7 @@
 
         public DateTime CreatedDate { get; set; }
 
-        public int views { get; set; }
+        public int Views { get; set; }
 
 
         public int UserId { get; set; }
