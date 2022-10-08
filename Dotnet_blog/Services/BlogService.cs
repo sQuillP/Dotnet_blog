@@ -23,10 +23,8 @@ namespace Dotnet_blog.Services
 
         public async Task<Blog> GetBlogByIdAsync(int id)
         {
-            var blog= await context.Blogs.Include(blog => blog.Comments).
-                FirstOrDefaultAsync(blog => blog.Id == id);
+            var blog = await context.Blogs.Include(blog => blog.Comments).FirstOrDefaultAsync(x => x.Id == id);
             return blog;
-            
         }
 
         public async Task<Blog> UpdateBlogAsync(int id, BlogVM blogVM)

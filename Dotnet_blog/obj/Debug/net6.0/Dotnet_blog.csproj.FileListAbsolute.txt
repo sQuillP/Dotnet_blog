@@ -59,3 +59,4 @@ C:\Users\Will\Desktop\Web development\csharp\Dotnet_blog\Dotnet_blog\obj\Debug\n
 C:\Users\Will\Desktop\Web development\csharp\Dotnet_blog\Dotnet_blog\obj\Debug\net6.0\Dotnet_blog.pdb
 C:\Users\Will\Desktop\Web development\csharp\Dotnet_blog\Dotnet_blog\obj\Debug\net6.0\Dotnet_blog.genruntimeconfig.cache
 C:\Users\Will\Desktop\Web development\csharp\Dotnet_blog\Dotnet_blog\obj\Debug\net6.0\ref\Dotnet_blog.dll
+C:\Users\Will\Desktop\Web development\csharp\Dotnet_blog\Dotnet_blog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

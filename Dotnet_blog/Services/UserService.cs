@@ -58,6 +58,15 @@ namespace Dotnet_blog.Services
 
         }
 
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            var fetchedUser = await context.Users.FirstOrDefaultAsync(x => x.Email == email);
+            if(fetchedUser == null)
+            {
+                return null;
+            }
+            return fetchedUser;
+        }
 
         public async Task<User> DeleteUserAsync(int id)
         {
